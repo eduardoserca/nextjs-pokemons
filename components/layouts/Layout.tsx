@@ -19,12 +19,12 @@ export const Layout:FC<Props> = ({children, title}) => {
             <meta name="description" content={`Información sobre el pokémon ${title}`} />
             <meta name="keywords" content={`${title}, pokemon, pokedex`} />
 
-           
+
             <meta property="og:url" content={`${origin}`}/>
             <meta property="og:type" content="website"/>
             <meta property="og:title" content={`Información sobre ${title}`}/>
             <meta property="og:description" content={`Esta es la pagina sobre ${title}`}/>
-            <meta property="og:image" content={`${origin}/img/banner.png`}/>
+            <meta property="og:image" content={`${origin}/img/banner.jpg`}/>
 
             
             <meta name="twitter:card" content="summary_large_image"/>
@@ -32,7 +32,7 @@ export const Layout:FC<Props> = ({children, title}) => {
             <meta property="twitter:url" content={`${origin}`}/>
             <meta name="twitter:title" content={`Información sobre ${title}`}/>
             <meta name="twitter:description" content={`Esta es la pagina sobre ${title}`}/>
-            <meta name="twitter:image" content={`${origin}/img/banner.png`}/>
+            <meta name="twitter:image" content={`${origin}/img/banner.jpg`}/>
         
         </Head>
 
