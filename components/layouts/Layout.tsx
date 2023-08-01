@@ -19,19 +19,20 @@ export const Layout:FC<Props> = ({children, title}) => {
             <meta name="description" content={`Información sobre el pokémon ${title}`} />
             <meta name="keywords" content={`${title}, pokemon, pokedex`} />
 
-            <meta property="og:title" content={`Información sobre ${title}`} />
-            <meta property="og:description" content={`Esta es la pagina sobre ${title}`} />
+           
+            <meta property="og:url" content={`${origin}`}/>
+            <meta property="og:type" content="website"/>
+            <meta property="og:title" content={`Información sobre ${title}`}/>
+            <meta property="og:description" content={`Esta es la pagina sobre ${title}`}/>
             <meta property="og:image" content={`${origin}/img/banner.png`}/>
 
-             
-            <meta property="og:type" content="website" />          
-            <meta property="og:image:width" content="526" />
-            <meta property="og:image:height" content="275" />
-            <meta property="og:image:type" content="image/png" />
-            <meta name="twitter:card" content="summary_large_image" />
-            <meta name="twitter:creator" content="@secretsahil" /> 
-            <meta property="og:site_name" content="Site Name" />
-          
+            
+            <meta name="twitter:card" content="summary_large_image"/>
+            <meta property="twitter:domain" content="nextjs-pokemons.vercel.app"/>
+            <meta property="twitter:url" content={`${origin}`}/>
+            <meta name="twitter:title" content={`Información sobre ${title}`}/>
+            <meta name="twitter:description" content={`Esta es la pagina sobre ${title}`}/>
+            <meta name="twitter:image" content={`${origin}/img/banner.png`}/>
         
         </Head>
 
