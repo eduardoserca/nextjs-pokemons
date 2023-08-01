@@ -22,6 +22,16 @@ export const Layout:FC<Props> = ({children, title}) => {
             <meta property="og:title" content={`Información sobre ${title}`} />
             <meta property="og:description" content={`Esta es la pagina sobre ${title}`} />
             <meta property="og:image" content={`${origin}/img/banner.png`}/>
+
+             
+            <meta property="og:type" content="website" />          
+            <meta property="og:image:width" content="526" />
+            <meta property="og:image:height" content="275" />
+            <meta property="og:image:type" content="image/png" />
+            <meta name="twitter:card" content="summary_large_image" />
+            <meta name="twitter:creator" content="@secretsahil" /> 
+            <meta property="og:site_name" content="Site Name" />
+          
         
         </Head>
 
